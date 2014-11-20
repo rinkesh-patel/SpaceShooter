@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour
 
 	void Start()
 	{
-		score = 0;
+		score = 1;
 		UpdateScore ();
 		StartCoroutine(SpawnWaves());
 	}
